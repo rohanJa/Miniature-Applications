@@ -6,9 +6,9 @@ import  ColorCounter from '../ColorCounter'
 /*
     Need To implement Switch Case condition so as 
     color not exceed 255 and cannot do below 0.
-    1.  As it is not possible because if increse after 
+    1.  As it is not possible because if decrease after 
         below zero we have to come uptil zero then the color will increase. 
-    2.  Color will not change if we decrease after we exceed 255.
+    2.  Color will not change if we increase after we exceed 255.
 */
 
 const reducer = (state, action) =>{
