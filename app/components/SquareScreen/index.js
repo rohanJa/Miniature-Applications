@@ -39,9 +39,9 @@ const reducer = (state, action) =>{
 
 };
 
-/*Resucer function has to return value at every action performed
+/*Reducer function has to return value at every action performed
 as the state defined in functional component is different from 
-state variable in reducer function n
+state variable in reducer function.
 */ 
 
 const SquareScreen = () =>{
