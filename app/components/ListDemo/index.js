@@ -43,7 +43,7 @@ const ListDemo = ({navigation}) =>{
                         return <Text style={styles.textStyle}>{item.name}-{item.age}</Text>
                     }}
             />
-    </View>
+        </View>
     )}
 
 const styles = StyleSheet.create({
